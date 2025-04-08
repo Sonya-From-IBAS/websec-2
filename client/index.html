@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="first_header">
+            <div class="left_side">
+                <div id="current-date" class="link"></div>
+            </div>
+            <div class="right_side">
+                <span class="link">Версия для слабовидящих</span>
+                <span class="link">RU</span>
+                <span class="link">Личный кабинет</span>
+            </div>
+        </div>
+
+        <div class="second_header">
+            <div class="header_logo link">
+                <img src="https://ssau.ru/pagefiles/of_docs/logo_osnovnoy_RUS.png" width="189" height="95" />
+            </div>
+            <span class="link b_text">Университет</span>
+            <span class="link b_text">Новости и события</span>
+            <span class="link b_text">Образование</span>
+            <span class="link b_text">Контакты</span>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="main_schedule">
+            <h2 class="h2-text">Расписание, 6412-100503D</h2>
+            <hr>
+            <form>
+                <input id="search-input" type="text" placeholder="Поиск..." list="search-list" />
+            </form>
+        </div>
+
+        <div class="main_table">
+            <div class="table_weeks">
+
+                <div class="week_button">
+                    <button id="previousWeek">
+                        Предыдущая неделя
+                    </button>
+                </div>
+
+                <div class="week_button">
+                    <div class="current_week" id="current_week">
+                    </div>
+                </div>
+
+                <div class="week_button">
+                    <button id="nextWeek">
+                        Следующая неделя
+                    </button>
+                </div>
+
+                <div class="nav-buttons">
+                    <button id="previousDay">
+                        Предыдущий день
+                    </button>
+                    <button id="nextDay">
+                        Следующий день
+                    </button>
+                </div>
+
+            </div>
+
+            <table class="schedule-table text-style1">
+                <tr class="headers-row"></tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <h1 class="h2-text black">Контакты</h1>
+        <div class="connection">
+            <section>
+                <h2>Приемная комиссия</h2>
+                <p class="info-text">8-(800)-550-34-35, 8-(846)-267-48-67</p>
+                <p class="info-text">priem@ssau.ru</p>
+                <p class="info-text">ssau.ru/priem</p>
+            </section>
+        </div>
+        <div class="connection">
+            <section>
+                <h2>Центр по связям с общественностью</h2>
+                <p class="info-text">pr@ssau.ru</p>
+                <p class="info-text">
+                    https://ssau.ru/pagefiles/trebovaniya_publication_site.pdf
+                </p>
+            </section>
+        </div>
+        <div class="connection">
+            <section>
+                <h2>Техническая поддержка</h2>
+                <p class="info-text">+7-(846)-267-49-99</p>
+                <p class="info-text">help@ssau.ru</p>
+            </section>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
